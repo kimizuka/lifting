@@ -1,0 +1,26 @@
+{
+  "name": "lifting",
+  "version": "1.0.0",
+  "description": "ずーしーほっきーがリフティングします。",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "node-sass --include-path _sass _sass/main.scss docs/css/main.css -w --output-style compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kimizuka/lifting.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kimizuka/lifting/issues"
+  },
+  "homepage": "https://github.com/kimizuka/lifting#readme",
+  "devDependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
